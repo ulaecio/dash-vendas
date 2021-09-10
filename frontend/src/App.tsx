@@ -13,7 +13,7 @@ function App() {
         <h1 className="text-primary py-3">Dashboard</h1>
         <div className="row px-3">
           <div className="col-sm-6">
-            <h5 className="text-center text-secondary">Taxa de sucesso(%)</h5>
+            <h5 className="text-center text-secondary">Volume/Setor</h5>
             <BarChart />
           </div>
           <div className="col-sm-6">
@@ -23,7 +23,7 @@ function App() {
         </div>
         <div className="py-3">
           <h2 className="text-primary">
-            Todas vendas
+          Resumo por Rotas
           </h2>
         </div>
         <DataTable />

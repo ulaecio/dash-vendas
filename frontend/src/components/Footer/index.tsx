@@ -3,26 +3,21 @@ const Footer = () => {
     <footer className="footer mt-auto py-3 bg-dark">
       <div className="container">
         <p className="text-light">
-          App desenvolvido por{" "}
+          Developed by {" "}
           <a
-            href="https://github.com/ulaecio"
+            href="https://instagram.com/ulaecio"
             target="_blank"
             rel="noreferrer"
           >
-            Ulaecio do Carmo
+            tic - psiu
           </a>
         </p>
         <p className="text-light">
-          <small>
-            <strong>Projeto Dash Vendas</strong>
-            <br />
-            Criado pela Ulasoftware - Tecnologia:{" "}
-            <a
-              href="https://instagram.com/ulasoftware"
+          <small>Copy right <a
+              href="https://instagram.com/ulaecio"
               target="_blank"
               rel="noreferrer"
-            >
-              @ulasoftware
+            > DBL Industria de Bebidas
             </a>
           </small>
         </p>
