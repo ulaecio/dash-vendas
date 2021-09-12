@@ -9,19 +9,18 @@ const BarChart = () => {
             }
         },
     };
-    
+
     const mockData = {
         labels: {
-            categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
+            categories: ['Setor 01', 'Setor 02', 'Setor 03', 'Setor 04', 'Setor 05', 'Setor 06', 'Setor 07']
         },
         series: [
             {
                 name: "% Sucesso",
-                data: [43.6, 67.1, 67.7, 45.6, 71.1]                   
+                data: [43.6, 65.1, 67.7, 45.6, 51.1, 71.1, 45.1]                   
             }
         ]
     };
-
     return (
         <Chart 
             options={{...options, xaxis: mockData.labels}}
